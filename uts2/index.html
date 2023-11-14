@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilham Rigan</title>
+    <style>
+        body {
+            font-family: 'lucida bright', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .hero {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 100px;
+        }
+
+        .profile-frame {
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+            margin: 0 auto;
+            margin-bottom: -1000px;
+        }
+
+        .profile-picture {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .about-me, .skills, .projects, .contact-me {
+            background-color: #fff;
+            color: #333;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        .skills ul, .projects ul, .contact-me ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li, .projects li, .contact-me li {
+            margin-bottom: 10px;
+        }
+
+        .project-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        }
+
+        .project-item {
+            width: 48%;
+        }
+
+        .project-item img {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .view-behance-button {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .view-behance-button:hover {
+            background-color: #2980b9;
+        }
+
+        .view-medium-button {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            margin-top: 10px;
+            background-color: #2ecc71;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .view-medium-button:hover {
+            background-color: #27ae60;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-me img {
+            width: 30px;
+            margin: 0 10px;
+        }   
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="profile-frame">
+            <img src="pp.jpg" alt="Profile Picture" class="profile-picture">
+        </div>
+    </section>
+    <section id="hero" class="hero">
+        <h1>💙💙💙💙💙🤞💙💙💙💙💙</h1>
+        <h1 id="welcome-text">🎨 Selamat Datang di Portfolio Saya 🎨</h1>
+        <p id="intro-text">Saya Ilham Rigan, seorang UI/UX Designer dan Seniman Digital Landscape.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="about-me">
+        <h2>Tentang Saya</h2>
+        <p id="about-text">Halo, saya Ilham Rigan. Saya adalah seorang UI/UX Designer dengan kecintaan pada desain antarmuka yang memukau dan seorang seniman digital yang menciptakan pemandangan yang indah.</p>
+        <ul>
+            <li><strong>Kemampuan UI/UX Design:</strong> Desain Antarmuka, Prototyping, User Research</li>
+            <li><strong>Kemampuan Seni Digital:</strong> Digital Painting, Ilustrasi, Konsep Pemandangan</li>
+            <li><strong>Pengalaman:</strong> Saya telah belajar desain selama 5 tahun, dari sekolah menengah sampai saat ini.</li>
+            <li><strong>Kesukaan:</strong> Saya menikmati menciptakan pengalaman pengguna yang unik, mengeksplorasi alam untuk mendapatkan inspirasi seni, dan terus belajar tentang perkembangan desain dan seni digital.</li>
+            <li><strong>Tujuan:</strong> Menjadi seorang desainer yang berpengaruh, menciptakan karya-karya yang memukau dan bermakna bagi pengguna.</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Kemampuan</h2>
+        <ul id="skills-list">
+            <li>UI/UX Design</li>
+            <li>Prototyping</li>
+            <li>User Research</li>
+            <li>Digital Painting</li>
+            <li>Ilustrasi</li>
+            <li>Konsep Pemandangan</li>
+        </ul>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="projects">
+        <h2>Proyek Saya</h2>
+        <p>Berikut adalah beberapa proyek UI/UX dan karya seni digital yang telah saya kerjakan:</p>
+
+        <div class="project-container">
+            <div class="project-item">
+                <h3><a>Design GO UMKM</a></h3>
+                <img src="go umkm.jpg" alt="Design GO UMKM">
+                <p class="project-description">Desain antarmuka untuk aplikasi GO UMKM yang memukau.</p>
+                <p><a href="https://youtu.be/uYXGmZavvqI?si=AUKIDDijKTGJBJ85" >Lihat Proyek</a></p>
+            </div>
+
+            <div class="project-item">
+                <h3><a>Design AYO BLONJO</a></h3>
+                <img src="ayo blonjo.jpg" alt="Design AYO BLONJO">
+                <p class="project-description">Desain antarmuka untuk aplikasi AYO BLONJO yang memukau.</p>
+                <p><a href="https://youtu.be/B3v9g2hNCbU?si=XvQuWk3OpFHEa76a" >Lihat Proyek</a></p>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <div class="project-item">
+                <h3><a>Art Terbit dan Kucing</a></h3>
+                <img src="art1.png" alt="Art Terbit dan Kucing">
+                <p class="project-description">Pemandangan alam digital dengan konsep surreal yang menginspirasi.</p>
+                <p><a href="https://www.instagram.com/p/CzFuu3oSokj/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank">Lihat Proyek</a></p>
+            </div>
+
+            <div class="project-item">
+                <h3><a>Art Senja dan Kota</a></h3>
+                <img src="art2.png" alt="Art Senja dan Kota">
+                <p class="project-description">Pemandangan alam digital dengan konsep surreal yang menginspirasi.</p>
+                <p><a href="https://www.instagram.com/p/CzFuu3oSokj/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank">Lihat Karya</a></p>
+            </div>
+        </div>
+
+        <p>Untuk informasi lebih lanjut tentang proyek-proyek saya, Anda dapat mengunjungi profil saya di Behance bawah ini: 👇👇👇.</p>
+        <button class="view-behance-button" onclick="window.open('https://www.behance.net/eloooyhm', '_blank')">Lihat Proyek di Behance</button>
+        <p>Saya juga memiliki beberapa tulisan yang telah dipublikasikan di Medium bawah ini: 👇👇👇</p>
+        <button class="view-medium-button" onclick="window.open('https://medium.com/@ryantzu500', '_blank')">Baca di Medium</button>
+        <p>Selain itu, saya pernah meraih penghargaan dalam kompetisi desain tahunan di kategori UI/UX.</p>
+        <img src="grafikporto.png" alt="Visualisasi Pencapaian">
+    </section>
+
+<!-- https://www.instagram.com/p/CzFuu3oSokj/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==-->
+
+    <!-- Contact Me Section -->
+    <section id="contact-me" class="contact-me">
+        <h2>Hubungi Saya</h2>
+        <p id="contact-intro">Anda bisa menghubungi saya melalui:</p>
+        <script>
+            document.write("<ul>");
+            document.write("<li>Email: <img src='https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png' alt='Email Icon'> <span id='email'>ilhamrgn22@gmail.com</span></li>");
+            document.write("<li>LinkedIn: <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAMAAAAqJH57AAAAYFBMVEUCdLP///8AdLMAb7GLsNGBqs7a5vAAaa/U4u4AbbD8///l7vUbeLWpx9/3/P4Aa68AZKxnnMdVksIsf7mevdlGiL1uoMlMjb/w9vrA1OYzg7p3pcyxy+HI2+qOtdSiwtwuPawOAAADLUlEQVRoge3bW3ejIBAAYC4qkBjRmItaTf7/v1xNtmlkxq49Z8CePcxDHgL1C4o4YGH8EfqQhIqDfpJs+mhra2SoMLZrP+XUSsHChZA2fcofNqT7sO3HJPcqNDzSqh/lPLg7Rc7ZEPxcTyHswE5mA5gxc2KJ3ESWCUs3ktMoR3kjWbw+AsumzM/nWllf+IIsbH3LmqJo9vezDSqbW8H/xq7PvXQEXJYtf4t9HUoWdgZz3vhoNCarE3dCl/TdDJO7wpX5hb7ViGzvAObakDcaysLuoczpOxnS5q5BZPrTDWV53CEyfcqEtLlCYH4nH8mQNl+xNich2pxj1/kY4DqzUkO4oXZRWV6gfAhxP4/fZUD2MAFC5as7fKYepiHoU9I4N9ahpIcXns9m1urEB7yUk0hz+ry3+tpPOrSYARpWnfr2XuW+ZpqLsmDSjiG95b2/MtOP8g9iXc8glcdeqcpSSfX4/Mdh0XzbKCfeVo+EdQtfRUZd036aE42TIt0nR6a+W1lEZCFvBzdehxDMLey7Z8k4E9vPcopd01Zm2UZl+Kx6NRopnJIGIdkJSyiyanEgWifv1JcM8oZRFvaIpcpTtEvzQRJZ2GTBHWPf4TSFzBQyK/mKAqcp5BLMAOeBJ3EE8hVN0N9jwB7wFDLWqeeBzY0I5KVe/V4FWbsnkNdEhayIhJEHmK8HkpGEPZQMM/ZQcgtelhDKTaaHQS/cYnt/Z1tfajk+uk1doRV2nSe5SJV8pEFTsowOpmACTiMXx7ehQsCVPI50MRo5nU+ADEwt4EILiey+5ZNHWKdVc4VGhtcQ9nDto83gjhGmBZUyd/ykkFswKBuYHWXuz6OQb3BkhBfai4ysleWgErgkFDKyDizDyBBmFsruc5JChidbWLB26kMuYL4hVJSjHOUoRznKUY5ylKMc5ShHeRbfyTtMBkdYJ7eZG+ZL7t0yDd+GCQOO0K6Qxy9BvK2zwUL3z9fVQmUBYm3hD2r9X++foxzlXyJvtx/jvtEelDvTG+270YzXW5xuWXOGvD/zH9P/iLPp1Uv4PWXJcx9dEnwf3fS64bl3sAu7d3Dgn/Im+yX/AEtHRNZqZxefAAAAAElFTkSuQmCC' alt='LinkedIn Icon'> <a href='https://www.linkedin.com/in/ilhamrigan/' target='_blank' id='linkedin'>Ilham Rigan</a></li>");
+            document.write("<li>Behance: <img src='data:image/png;base64,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' alt='Behance Icon'> <a href='https://www.behance.net/eloooyhm' target='_blank' id='behance'>Ilham Rigan</a></li>");
+            document.write("<li>Whatsapp: <img src='data:image/png;base64,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' alt='Behance Icon'> <a href='https://www.behance.net/eloooyhm' target='_blank' id='behance'>WhatsApp Ilham Rigan</a></li>");
+            document.write("</ul>");
+        </script>
+    </section>
+
+    <footer>
+        <p>&copy; Portoflio Ilham Rigan</p>
+    </footer>
+</body>
+</html>
